@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/LandingPage-TopFit/static/css/main.a3ea697e.css",
+    "main.js": "/LandingPage-TopFit/static/js/main.bb9d55a9.js",
+    "static/js/453.245a1ef6.chunk.js": "/LandingPage-TopFit/static/js/453.245a1ef6.chunk.js",
+    "static/media/aero.jpg": "/LandingPage-TopFit/static/media/aero.12f121d0f4bd5ad54a95.jpg",
+    "static/media/musc.jpg": "/LandingPage-TopFit/static/media/musc.650b14f885325d9d5cb3.jpg",
+    "static/media/terra.jpg": "/LandingPage-TopFit/static/media/terra.5cb6a8fa80050560cb17.jpg",
+    "static/media/cross.jpg": "/LandingPage-TopFit/static/media/cross.5e235ee0895dece4efdc.jpg",
+    "static/media/top.png": "/LandingPage-TopFit/static/media/top.584bb206d1462225cc3f.png",
+    "static/media/logo.svg": "/LandingPage-TopFit/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/slick.svg": "/LandingPage-TopFit/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/LandingPage-TopFit/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/LandingPage-TopFit/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/LandingPage-TopFit/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/LandingPage-TopFit/index.html",
+    "main.a3ea697e.css.map": "/LandingPage-TopFit/static/css/main.a3ea697e.css.map",
+    "main.bb9d55a9.js.map": "/LandingPage-TopFit/static/js/main.bb9d55a9.js.map",
+    "453.245a1ef6.chunk.js.map": "/LandingPage-TopFit/static/js/453.245a1ef6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3ea697e.css",
+    "static/js/main.bb9d55a9.js"
+  ]
+}
