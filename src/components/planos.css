@@ -1,0 +1,31 @@
+.planos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .planos h1 {
+    color: #000000; /* Ajuste a cor conforme necessário */
+  }
+
+  .planos .amarelo{
+    color: #df980c;
+  }
+
+  .separator {
+    width: 80%; /* Ajuste conforme necessário */
+    height: 2px;
+    margin-bottom: 20px; /* Espaço entre a linha e os planos */
+  }
+  
+  .plan-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+    /* Remove as margens para a linha separadora */
+
+
+  

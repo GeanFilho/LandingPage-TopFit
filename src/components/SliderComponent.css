@@ -1,0 +1,79 @@
+.slider-container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.slider-container h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.slider-container h2 span {
+  color: #df980c;
+}
+
+.slick-slide {
+  padding: 0 10px; /* Adicionando espaçamento lateral */
+  box-sizing: border-box; /* Incluindo padding no cálculo do tamanho do elemento */
+}
+
+.slide {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.card {
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1em;
+  color: #666;
+}
+
+.slick-prev, .slick-next {
+  font-size: 1.5em;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  padding: 10px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 1.5em;
+  color: black;
+}
+
+.separator {
+  width: 80%; /* Ajuste conforme necessário */
+  height: 2px;
+  margin-bottom: 20px; /* Espaço entre a linha e os planos */
+}

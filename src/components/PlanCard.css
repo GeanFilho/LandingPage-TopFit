@@ -1,0 +1,32 @@
+.plan-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .plan-card:hover {
+    transform: translateY(-10px); /* Sobe 10px quando o mouse está por cima */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+  }
+  
+  .plan-card h2 {
+    color: #df980c; /* Ajuste a cor conforme necessário */
+  }
+  
+  .plan-card h3 {
+    color: #000;
+  }
+  
+  .plan-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .plan-card li {
+    margin: 10px 0;
+  }
+  

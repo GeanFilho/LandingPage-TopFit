@@ -1,0 +1,110 @@
+.matricular-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.matricular-section-info {
+  max-width: 600px;
+  margin-right: 20px;
+}
+
+.matricular-section-info h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.matricular-section-info .highlight {
+  color: #df980c; /* cor azul para destacar */
+}
+
+.matricular-section-info p {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.signup-button {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  color: #df980c;
+}
+
+.matricular-section-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-list{
+  list-style: none;
+  line-height: 30px;
+}
+
+.image-container {
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+}
+
+.image-item {
+  position: relative;
+  flex: 1;
+  margin: 0 10px;
+  overflow: hidden;
+  border-radius: 10px;
+  height: 250px; /* Ajuste a altura conforme necessário */
+}
+
+.image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: background 0.3s ease-in-out;
+}
+
+.overlay-text, .hover-text {
+  margin: 0;
+}
+
+.hover-text {
+  display: none;
+}
+
+.image-item:hover .overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.image-item:hover .overlay-text {
+  display: none;
+}
+
+.image-item:hover .hover-text {
+  display: block;
+}
+
